@@ -5,7 +5,7 @@
 
 1. Introdução a programação e ao python
 
-- [ ] F01 
+- [x] F01 
 - [ ] F02 
 - [ ] F03 
 - [ ] F04 
