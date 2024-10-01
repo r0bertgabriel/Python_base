@@ -15,6 +15,12 @@ Execução:
     ou
     ./hello.py
 """
+# metadados
+__version__ = "0.0.1"
+__author__ = "r0bert"
+__license__ = "Unlicense"
+
+
 print("Hello from python-base!")
 print(3+1)
 
