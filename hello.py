@@ -10,7 +10,7 @@ Tenha a variável LANG devidamente configurada ex:
     export LANG=pt_BR
 
 Execução:
-    
+
     python3 hello.py
     ou
     ./hello.py
@@ -20,8 +20,11 @@ __version__ = "0.0.1"
 __author__ = "r0bert"
 __license__ = "Unlicense"
 
+current_language = "en_US"
 
-print("Hello from python-base!")
-print(3+1)
+msg = 'Hello, World!'
 
+if current_language == "pt_BR":
+    msg = "Olá, mundo!"
 
+print(msg)
