@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Hello World Multi Linguas.
+"""Hello World Multi Linguas.
 
 Dependendo da lingua configurada no ambiente o programa exibe a mensagem
 correspondente.
@@ -15,6 +15,7 @@ Execução:
     ou
     ./hello.py
 """
+
 # metadados
 __version__ = "0.0.1"
 __author__ = "r0bert"
@@ -24,7 +25,7 @@ import os
 
 current_language = os.getenv("LANG", "en_US")[:5]
 
-msg = 'Hello, World!'
+msg = "Hello, World!"
 
 if current_language == "pt_BR":
     msg = "Olá, mundo!"
